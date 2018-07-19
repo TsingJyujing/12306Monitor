@@ -90,7 +90,7 @@ def mail_alert(sub,content,to_list):
 	#to_list=['373207102@qq.com','tsingjyujing@163.com'] 
 	mail_host="smtp.qq.com"  #设置服务器
 	mail_user="yuanyifan1993"    #用户名
-	mail_pass="Ds718281828&"   #口令 
+	mail_pass="给出你的密码"   #口令 
 	mail_postfix="qq.com"  #发件箱的后缀
 	me="TrainAlerter"+"<"+mail_user+"@"+mail_postfix+">"  
 	msg = MIMEText(content,_subtype='plain',_charset='gb2312')  
